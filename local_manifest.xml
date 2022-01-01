@@ -3,6 +3,8 @@
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="PixelOS-Pixelish" />
@@ -19,4 +21,8 @@
  
  <!-- Wlan -->
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
+
+ <!-- Ant radio library -->
+ <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="PixelExperience" revision="twelve" />
+
  </manifest>
