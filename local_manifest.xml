@@ -6,6 +6,6 @@
  <!-- Trees -->
  <project path="device/motorola/potter" name="android_device_motorola_potter" remote="Alone0316" revision="12" />
  <project path="vendor/motorola/potter" name="android_vendor_motorola_potter" remote="Alone0316" revision="11.0" />
- <project path="kernel/motorola/potter" name="kernel_potter" remote="Alone0316" revision="12" />
+ <project path="kernel/motorola/msm8953" name="android_kernel_motorola_msm8953" remote="Alone0316" revision="r-11.0" />
 
  </manifest>
