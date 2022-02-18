@@ -7,7 +7,7 @@
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="PixelOS-Pixelish" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Pixel" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
