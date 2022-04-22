@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="ProjectArcana-Devices" fetch="https://github.com/ProjectArcana-Devices" />
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
- <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ProjectArcana-Devices" revision="twelve" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ProjectArcana-Devices" revision="main" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Styx" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
-
- <!-- Wlan -->
- <remove-project name="platform_hardware_qcom_wlan" />
- 
- <!-- Wlan -->
- <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
-
- <!-- Radio -->
- <remove-project name="platform_vendor_qcom_opensource_fm-commonsys" />
-
- <!-- Radio -->
- <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="LineageOS" revision="lineage-18.1" />
- <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="LineageOS" revision="lineage-18.1" />
- <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="LineageOS" revision="lineage-18.1" />
 
  </manifest>
