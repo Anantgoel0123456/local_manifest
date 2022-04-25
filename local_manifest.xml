@@ -5,20 +5,20 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
-<!-- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Styx" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Styx" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" /> -->
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
  <!-- Resources -->
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" /> 
 
  <!-- Remove -->
- <remove-project name="android_hardware_qcom_audio" />
+ <!--<remove-project name="android_hardware_qcom_audio" />
  <remove-project name="android_hardware_qcom_display" />
- <remove-project name="android_hardware_qcom_media" />
+ <remove-project name="android_hardware_qcom_media" /> -->
 
  <!-- Hals -->
- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="Alone0316" revision="11.0-caf-msm8996" />
+<!-- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="Alone0316" revision="11.0-caf-msm8996" />
  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Alone0316" revision="11.0-caf-msm8996" />
- <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="Alone0316" revision="11.0-caf-msm8996" />
+ <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="Alone0316" revision="11.0-caf-msm8996" /> -->
  </manifest>
