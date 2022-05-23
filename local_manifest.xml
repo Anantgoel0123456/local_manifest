@@ -2,12 +2,13 @@
 <manifest>
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
+ <remote name="Anantgoel0123456" fetch="https://github.com/Anantgoel0123456" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Pixel" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Anantgoel0123456" revision="Pixel" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
