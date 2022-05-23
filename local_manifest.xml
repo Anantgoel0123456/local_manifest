@@ -9,7 +9,7 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="ProjectArcana-Devices" revision="twelve" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ProjectArcana-Devices" revision="main" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_mido" remote="ProjectArcana-Devices" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="oc" />
 
  <!-- Wlan -->
