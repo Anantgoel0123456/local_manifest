@@ -5,6 +5,6 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Anantgoel0123456" revision="Corvus" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="Anantgoel0123456" revision="main" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Anantgoel0123456" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Anantgoel0123456" revision="oc" />
  </manifest>
