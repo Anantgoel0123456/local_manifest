@@ -2,11 +2,6 @@
 <manifest>
  <!--Remote-->
   <remote name="Anantgoel0123456" fetch="https://github.com/Anantgoel0123456" />
-  <remote name="chintu" fetch="https://github.com/jrchintu" />
-  <remote name="cos" fetch="https://github.com/ChintuOs/" />
-  <remote name="anar" fetch="https://github.com/Jabiyeff/" />
-  <remote name="chintu404" fetch="https://gitlab.com/chintu404/" />
-  <remote name="smokey" fetch="https://github.com/smokey18/" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Anantgoel0123456" revision="Corvus" />
