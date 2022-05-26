@@ -6,7 +6,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Anantgoel0123456" revision="Corvus" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Anantgoel0123456" revision="main" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Anantgoel0123456" revision="oc" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Anantgoel0123456" revision="normal" />
  
 # Extra packages
 <project name="ProtonAOSP/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="sc-v2" clone-depth="1" />
